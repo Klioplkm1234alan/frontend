@@ -2,7 +2,7 @@ import React from 'react'
 import Screen from '../components/Screen'
 import InfosCom from '../components/InfosCom'
 import { useTranslation } from 'react-i18next'
-import DeveloperAccounts from '../components/developerAccounts'
+import DeveloperAccounts from '../components/DeveloperAccounts'
 
 const Info = () => {
   const { t } = useTranslation()
