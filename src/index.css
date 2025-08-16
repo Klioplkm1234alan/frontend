@@ -1,0 +1,31 @@
+@import "tailwindcss";
+body, html{
+    min-height: 100vh;
+
+}
+:root{
+    min-height: 100vh;
+    overflow: scroll;
+}
+@keyframes slideUpFade {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+}
+
+.animate-slideUpFade {
+  animation: slideUpFade 3s ease forwards;
+}
