@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import AdminHeading from '../components/AdminHeading';
 import Screen from '../components/Screen';
 import AdminButton from '../components/AdminButton';
-import CardFrAdmin from '../components/cardFrAdmin';
+import CardFrAdmin from '../components/CardFrAdmin';
 import NoNeedForThisCardJFS from '../components/NoNeedForThisCardJFS';
 import { useTranslation } from 'react-i18next';
 
